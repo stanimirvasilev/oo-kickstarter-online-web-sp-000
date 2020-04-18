@@ -13,8 +13,8 @@ class Project
      @backers << backer
      if !@backers.include?(backer)
    backer.back_project(self)
+     end
   end
-end
   
   
   
