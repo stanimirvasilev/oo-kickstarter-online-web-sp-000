@@ -14,7 +14,7 @@ class Project
      if !@backers.include?(backer)
    backer.back_project(self)
   end
-  
+end
   
   
   
