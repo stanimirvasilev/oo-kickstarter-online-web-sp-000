@@ -13,7 +13,7 @@ class Backer
    @backed_projects << project
    if !@backed_projects.include?(self)
   project.add_backer(self)
-    
+   end
   end
   
   
